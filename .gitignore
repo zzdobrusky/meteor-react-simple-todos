@@ -1,0 +1,29 @@
+# MAC OS
+_mac
+codestyles
+debugger.xml
+editor.xml
+
+# Meteor files to ignore now handled by .ignore file within .Meteor folder automatically - not working in webstorm
+.meteor/
+
+# deployment
+bundle/
+
+# Webstorm IDE files to ignore
+.idea/
+
+# settings file to ignore to protect API keys
+settings.json
+
+# MUP / MUPX file to ignore to protect server passwords and sensitive info.
+mup.json
+
+# npm package files to ignore
+node?modules/
+npm-debug.log
+
+# Typing type definition files to ignore. Webstorm uses type definitions for autocomplete even without typescript
+typings
+!/.meteor/packages
+/server/config.js
