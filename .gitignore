@@ -1,8 +1,7 @@
 # MAC OS
 _mac/
 codestyles/
-debugger.xml
-editor.xml
+*.xml
 
 # Meteor files to ignore now handled by .ignore file within .Meteor folder automatically - not working in webstorm
 .meteor/
